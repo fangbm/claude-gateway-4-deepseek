@@ -1,0 +1,16 @@
+{
+  "name": "claude-gateway-4-deepseek",
+  "version": "1.0.0",
+  "description": "A Cloudflare Worker shim that exposes Anthropic-compatible /v1/models and proxies /v1/messages to DeepSeek's anthropic-compatible endpoint.",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250429.0",
+    "typescript": "^5.8.0",
+    "wrangler": "^4.14.0"
+  }
+}

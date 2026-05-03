@@ -1,0 +1,10 @@
+name = "claude-gateway-4-deepseek"
+main = "src/index.ts"
+compatibility_date = "2026-04-29"
+compatibility_flags = ["nodejs_compat"]
+
+# 不需要绑定 env.DEEPSEEK_API_KEY，因为 Key 由请求头传入
+# 如需 KV 做 Key 映射，取消下面注释并创建 KV namespace
+# [[kv_namespaces]]
+# binding = "API_KEY_MAP"
+# id = "your-kv-namespace-id"
