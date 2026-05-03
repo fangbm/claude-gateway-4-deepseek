@@ -1,5 +1,7 @@
 # claude-gateway-4-deepseek (cg4d)
 
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/fangbm/claude-gateway-4-deepseek)
+
 [English](README.md) | [简体中文](README_zh.md)
 
 A lightweight Cloudflare Worker that lets **Claude Desktop** (and Claude Code CLI) talk to **DeepSeek** through an Anthropic-compatible API shim.
