@@ -13,7 +13,7 @@
 
 ## 为什么需要这个项目
 
-Claude Desktop 和 Claude Code CLI 默认只支持 Anthropic 官方的 API 端点。DeepSeek 虽然提供了 Anthropic 兼容的消息接口，但两者的端点格式并不完全一致。cg4d 作为一个中间层，帮你抹平这些差异，让你可以用 DeepSeek 的模型（包括 DeepSeek-V3、DeepSeek-R1 等）在 Claude 生态中无缝使用，同时享受 DeepSeek 极具竞争力的价格。
+Claude Desktop 和 Claude Code CLI 默认只支持 Anthropic 官方的 API 端点。DeepSeek 虽然提供了 Anthropic 兼容的消息接口，但两者的端点格式并不完全一致。cg4d 作为一个中间层，帮你抹平这些差异，让你可以用 DeepSeek 的模型在 Claude 生态中无缝使用，同时享受 DeepSeek 极具竞争力的价格。
 
 ## 快速开始
 
