@@ -1,5 +1,5 @@
-# claude-gateway-4-deepseek (cg4d)
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/fangbm/claude-gateway-4-deepseek)
+# claude-gateway-for-deepseek (cg4d)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/fangbm/claude-gateway-for-deepseek)
 
 一个轻量级的 Cloudflare Worker，让 **Claude Desktop**（以及 Claude Code CLI）通过 Anthropic 兼容的 API 适配层，直接调用 **DeepSeek** 模型。
 
