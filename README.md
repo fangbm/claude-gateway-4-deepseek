@@ -38,7 +38,7 @@ npx wrangler deploy
 Wrangler will output your Worker URL, e.g.:
 
 ```
-https://claude-gateway-4-deepseek.<your-subdomain>.workers.dev
+https://claudegateway4deepseek.<your-subdomain>.workers.dev
 ```
 
 ## Configure Claude Desktop / Claude Code
@@ -48,7 +48,7 @@ Set the Anthropic base URL and pass your **real DeepSeek API Key** as the Anthro
 ### macOS / Linux
 
 ```bash
-export ANTHROPIC_BASE_URL=https://claude-gateway-4-deepseek.<your-subdomain>.workers.dev
+export ANTHROPIC_BASE_URL=https://claudegateway4deepseek.<your-subdomain>.workers.dev
 export ANTHROPIC_API_KEY=sk-your-real-deepseek-key
 claude
 ```
@@ -56,7 +56,7 @@ claude
 ### Windows (PowerShell)
 
 ```powershell
-$env:ANTHROPIC_BASE_URL = "https://claude-gateway-4-deepseek.<your-subdomain>.workers.dev"
+$env:ANTHROPIC_BASE_URL = "https://claudegateway4deepseek.<your-subdomain>.workers.dev"
 $env:ANTHROPIC_API_KEY = "sk-your-real-deepseek-key"
 claude
 ```
@@ -66,7 +66,7 @@ claude
 Add to `~/.zshrc` or `~/.bashrc`:
 
 ```bash
-export ANTHROPIC_BASE_URL=https://claude-gateway-4-deepseek.<your-subdomain>.workers.dev
+export ANTHROPIC_BASE_URL=https://claudegateway4deepseek.<your-subdomain>.workers.dev
 export ANTHROPIC_API_KEY=sk-your-real-deepseek-key
 ```
 
