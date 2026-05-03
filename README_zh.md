@@ -41,7 +41,7 @@ npx wrangler deploy
 Wrangler 会输出你的 Worker URL，类似：
 
 ```
-https://claude-gateway-4-deepseek.<你的子域名>.workers.dev
+https://claudegateway4deepseek.<你的子域名>.workers.dev
 ```
 
 ## 配置 Claude Desktop / Claude Code
@@ -51,7 +51,7 @@ https://claude-gateway-4-deepseek.<你的子域名>.workers.dev
 ### macOS / Linux
 
 ```bash
-export ANTHROPIC_BASE_URL=https://claude-gateway-4-deepseek.<你的子域名>.workers.dev
+export ANTHROPIC_BASE_URL=https://claudegateway4deepseek.<你的子域名>.workers.dev
 export ANTHROPIC_API_KEY=sk-你的-deepseek-key
 claude
 ```
@@ -59,7 +59,7 @@ claude
 ### Windows (PowerShell)
 
 ```powershell
-$env:ANTHROPIC_BASE_URL = "https://claude-gateway-4-deepseek.<你的子域名>.workers.dev"
+$env:ANTHROPIC_BASE_URL = "https://claudegateway4deepseek.<你的子域名>.workers.dev"
 $env:ANTHROPIC_API_KEY = "sk-你的-deepseek-key"
 claude
 ```
@@ -69,7 +69,7 @@ claude
 将以下内容添加到 `~/.zshrc` 或 `~/.bashrc`：
 
 ```bash
-export ANTHROPIC_BASE_URL=https://claude-gateway-4-deepseek.<你的子域名>.workers.dev
+export ANTHROPIC_BASE_URL=https://claudegateway4deepseek.<你的子域名>.workers.dev
 export ANTHROPIC_API_KEY=sk-你的-deepseek-key
 ```
 
@@ -79,7 +79,7 @@ export ANTHROPIC_API_KEY=sk-你的-deepseek-key
 
 在系统环境变量中添加：
 
-- 变量名：`ANTHROPIC_BASE_URL`，值：`https://claude-gateway-4-deepseek.<你的子域名>.workers.dev`
+- 变量名：`ANTHROPIC_BASE_URL`，值：`https://claudegateway4deepseek.<你的子域名>.workers.dev`
 - 变量名：`ANTHROPIC_API_KEY`，值：`sk-你的-deepseek-key`
 
 设置后重启 Claude Desktop。
