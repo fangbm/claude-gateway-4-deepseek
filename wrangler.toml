@@ -1,4 +1,4 @@
-name = "claude-gateway-4-deepseek"
+name = "ClaudeGateway4Deepseek"
 main = "src/index.ts"
 compatibility_date = "2026-04-29"
 compatibility_flags = ["nodejs_compat"]
